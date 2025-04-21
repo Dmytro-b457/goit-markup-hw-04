@@ -47,6 +47,7 @@ img {
   background-color: #fcfcff;
   padding: 24px;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -82,6 +83,8 @@ img {
 
 .current {
   position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current::after {
@@ -128,6 +131,7 @@ img {
   line-height: 150%;
   color: #434455;
   white-space: nowrap;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email-and-tel:hover,
@@ -141,6 +145,8 @@ img {
 
 .section-one {
   background-color: #2e2f42;
+  background-size: cover;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   max-width: 1440px;
   margin: 0 auto;
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -229,6 +235,7 @@ img {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
+  height: 112px;
 }
 
 .icon-principles {
@@ -282,6 +289,7 @@ img {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .our-team-info {
@@ -315,24 +323,34 @@ img {
 }
 
 .our-team-icon-svg-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.our-team-icon-svg-container-item {
   width: 40px;
   height: 40px;
+}
+
+.social-link {
+  width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-top: 8px;
+  justify-content: center;
 }
 
 .our-team-icon-svg-container:hover,
-.our-team-icon-svg-container:active,
 .our-team-icon-svg-container:focus {
   background-color: #404bbf;
 }
 .our-team-icon-svg {
   width: 16px;
   height: 16px;
+  fill: f4f4fd;
 }
 
 /* end-section-team */
