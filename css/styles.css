@@ -346,9 +346,12 @@ img {
   background-color: #404bbf;
 }
 
-.our-team-icon-svg {
+.team svg {
   width: 16px;
   height: 16px;
+}
+
+.our-team-icon-svg {
   fill: #f4f4fd;
 }
 
