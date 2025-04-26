@@ -502,7 +502,7 @@ img {
 .footer-icon-svg-container {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-icon-svg-container-item {
   width: 40px;
