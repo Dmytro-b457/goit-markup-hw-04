@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -317,7 +321,6 @@ img {
 .our-team-icon {
   display: flex;
   gap: 24px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -350,7 +353,7 @@ img {
 .our-team-icon-svg {
   width: 16px;
   height: 16px;
-  fill: f4f4fd;
+  fill: #f4f4fd;
 }
 
 /* end-section-team */
