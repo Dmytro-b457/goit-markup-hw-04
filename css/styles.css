@@ -83,6 +83,7 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+  color: #404bbf;
 }
 
 .current {
@@ -188,6 +189,7 @@ img {
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-servise:hover,
@@ -346,11 +348,6 @@ img {
   background-color: #404bbf;
 }
 
-.team svg {
-  width: 16px;
-  height: 16px;
-}
-
 .our-team-icon-svg {
   fill: #f4f4fd;
 }
@@ -388,6 +385,7 @@ img {
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-overlay-box {
