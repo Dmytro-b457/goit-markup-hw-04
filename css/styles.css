@@ -316,6 +316,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 8px;
 }
 
 .our-team-icon {
@@ -344,12 +345,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-team-icon-svg-container:hover,
-.our-team-icon-svg-container:focus {
+.social-link:hover,
+.social-link:focus {
   background-color: #404bbf;
 }
+
 .our-team-icon-svg {
   width: 16px;
   height: 16px;
