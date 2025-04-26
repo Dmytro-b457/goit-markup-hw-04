@@ -319,13 +319,6 @@ img {
   padding-bottom: 8px;
 }
 
-.our-team-icon {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  justify-content: center;
-}
-
 .our-team-icon-svg-container {
   display: flex;
   justify-content: center;
